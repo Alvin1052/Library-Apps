@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App.tsx';
 import './index.css';
-import ReactQueryProvider from './providers/ReactQUeryProvider.tsx';
+import ReactQueryProvider from './providers/ReactQueryProvider.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

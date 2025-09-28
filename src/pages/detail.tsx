@@ -5,8 +5,9 @@ import { Divider } from './home';
 import Reviews from '@/components/Details/review';
 import { useQuery } from '@tanstack/react-query';
 import { getBooksById } from '@/services/services';
-import RelatedBooks from '@/components/Details/relatedBooks';
+
 import Footer from '@/components/main/footer';
+import RelatedBooks from '@/components/Details/relatedbooks';
 
 const Detail = () => {
   const { booksId } = useParams();
